@@ -8,7 +8,6 @@ const Logo3D = () => {
 
   const [isMobile, setIsMobile] = useState(false);
 
-  // detect screen size
   useEffect(() => {
     const checkScreen = () => {
       setIsMobile(window.innerWidth < 768);
